@@ -1,47 +1,35 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+  <div id="body-container" class="ml-12 mr-12">
+    <div id="header-container">
+      <div id="title-container" class="float-left p-16 w-1/2">
+        <div id="title-bg" class="bg-slate-300/80 p-6 rounded-sm shadow-sm">
+          <h1 class="font-bold text-5xl text-black mb-16">Ruben<br/>Gomez Dopazo</h1>
+          <h3 class="text-2xl text-black">Software Engineer</h3>
+        </div>
+      </div>
+      <div class="float-right p-16 w-1/2">
+        <nav>
+          <ul>
+            <li>Home</li>
+            <li>Studies</li>
+            <li>Work experience</li>
+            <li>Projects</li>
+          </ul>
+        </nav>
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+        <p class="text-white">Algo de descripción explicando las movidas más importantes.</p>
+      </div>
     </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+    <main>
+      
+    </main>
+  </div>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-}
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
 </style>

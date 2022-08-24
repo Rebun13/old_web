@@ -1,4 +1,5 @@
 @import "./base.css";
  body {
-    background-image: url('../components/images/bg-picture.jpg');
+    background-image: linear-gradient(to bottom right, black, gray);
+    background-attachment: fixed;
  }

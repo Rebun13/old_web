@@ -16,7 +16,7 @@ const messages = {
         myName: 'Rubén',
         mySurname: 'Gómez Dopazo',
         myTitle: 'Ingeniero de Software',
-        myDescription: 'Soy un ingeniero de software, actualmente trabajando como desarrollador Cloud en CTAG (Centro Tecnológico de Automoción de Galicia).',
+        myDescription: 'Soy un <strong>Ingeniero de Software</strong>, actualmente trabajando como <strong>desarrollador Cloud</strong> en CTAG (Centro Tecnológico de Automoción de Galicia).',
         headerStudies: 'Estudios',
         headerWork: 'Experiencia laboral',
         headerProjects: 'Proyectos',

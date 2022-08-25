@@ -27,12 +27,12 @@ import Translate from './components/Translate.vue';
     <div id="header-container">
       <div id="title-container" class="float-left py-16 w-2/5">
         <div id="title-bg" class="bg-primary p-6 rounded-sm shadow-sm">
-          <h1 class="font-bold text-5xl text-black mb-16">{{ $t('myName') }}<br/>{{ $t('mySurname') }}</h1>
+          <h1 class="font-bold text-5xl text-white mb-16">{{ $t('myName') }}<br/>{{ $t('mySurname') }}</h1>
           <h3 class="text-2xl text-black">{{ $t('myTitle') }}</h3>
         </div>
       </div>
-      <div class="float-right p-16 w-3/5">
-        <p class="text-white" v-html="$t('myDescription')"></p>
+      <div id="description-container" class="float-right p-16 w-3/5">
+        <p id="myDescription" class="text-clear" v-html="$t('myDescription')"></p>
       </div>
     </div>
   </div>

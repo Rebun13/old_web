@@ -7,7 +7,8 @@ module.exports = {
     colors: {
       primary: 'var(--color-primary)',
       secondary: 'var(--color-secondary)',
-      accent: 'var(--color-accent)'
+      accent: 'var(--color-accent)',
+      clear: 'var(--color-clear)'
     },
     extend: {},
   },

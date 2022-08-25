@@ -1,5 +1,1 @@
 @import "./base.css";
- body {
-    background-image: linear-gradient(to bottom right, black, gray);
-    background-attachment: fixed;
- }

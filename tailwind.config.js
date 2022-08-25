@@ -4,6 +4,11 @@ module.exports = {
     './src/**/*.{html,vue,js}',
   ],
   theme: {
+    colors: {
+      primary: 'var(--color-primary)',
+      secondary: 'var(--color-secondary)',
+      accent: 'var(--color-accent)'
+    },
     extend: {},
   },
   plugins: [],

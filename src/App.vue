@@ -34,7 +34,7 @@ const language = ref('')
         </div>
       </div>
       <div class="float-right p-16 w-3/5">
-        <p class="text-white">{{ $t('myDescription') }}</p>
+        <p class="text-white" v-html="$t('myDescription')"></p>
       </div>
     </div>
   </div>

@@ -11,4 +11,7 @@
   body {
     @apply bg-secondary bg-fixed
   }
+  strong {
+    @apply text-accent
+  }
 }

@@ -7,6 +7,7 @@ import './assets/main.css'
 
 const app = createApp(App)
 const i18n = createI18n({
+    warnHtmlInMessage: 'off',
     locale: 'en',
     fallbackLocale: 'es',
     messages

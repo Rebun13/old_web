@@ -1,7 +1,5 @@
 <script setup>
-import { ref } from 'vue'
-
-const language = ref('') 
+import Translate from './components/Translate.vue';
 </script>
 
 <template>
@@ -38,13 +36,7 @@ const language = ref('')
       </div>
     </div>
   </div>
-  <div class="ml-24 mr-24 flex flex-auto">
-    <label for="lang-selector" class="pr-2 text-white">{{ $t('language') }}:</label>
-    <select id="lang-selector" name="lang-selector" class="bg-slate-300/80" v-model="language">
-      <option value="EN" selected>EN 🇬🇧</option>
-      <option value="ES">ES 🇪🇸</option>
-    </select>
-  </div>
+  <Translate/>
 </template>
 
 <style scoped>

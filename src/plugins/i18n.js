@@ -1,4 +1,6 @@
-export const messages = {
+import { createI18n } from 'vue-i18n';
+
+const messages = {
     'en': {
         myName: 'Rubén',
         mySurname: 'Gómez Dopazo',
@@ -22,3 +24,10 @@ export const messages = {
         language: 'Idioma'
     }
 }
+
+export const i18n = createI18n({
+    warnHtmlInMessage: false,
+    locale: 'en',
+    fallbackLocale: 'es',
+    messages
+})

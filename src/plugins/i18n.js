@@ -29,5 +29,12 @@ export const i18n = createI18n({
     warnHtmlInMessage: false,
     locale: 'en',
     fallbackLocale: 'es',
-    messages
+    messages,
+    setup() {
+        const { t, locale } = useI18n({ useScope: 'global' })
+        locale.value = 'en'
+        return { t, locale }
+    }      
 })
+
+

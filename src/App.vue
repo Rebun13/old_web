@@ -1,5 +1,8 @@
 <script setup>
 import Translate from './components/Translate.vue';
+import Studies from './components/Studies.vue';
+import Work from './components/Work.vue';
+import Projects from './components/Projects.vue';
 </script>
 
 <template>
@@ -36,6 +39,9 @@ import Translate from './components/Translate.vue';
       </div>
     </div>
   </div>
+  <Studies/>
+  <Work/>
+  <Projects/>
   <Translate/>
 </template>
 

@@ -10,7 +10,8 @@ const messages = {
         headerWork: 'Work experience',
         headerProjects: 'Projects',
         headerStudies: 'Studies',
-        language: 'Language'
+        language: 'Language',
+        studiesIntro: 'I have studied many things along my career.'
     },
     'es': {
         myName: 'Rubén',
@@ -21,7 +22,8 @@ const messages = {
         headerWork: 'Experiencia laboral',
         headerProjects: 'Proyectos',
         headerStudies: 'Estudios',
-        language: 'Idioma'
+        language: 'Idioma',
+        studiesIntro: 'He estudiado muchas cosas a lo largo de mi carrera.'
     }
 }
 

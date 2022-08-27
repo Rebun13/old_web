@@ -5,10 +5,10 @@ module.exports = {
   ],
   theme: {
     colors: {
-      primary: 'var(--color-primary)',
-      secondary: 'var(--color-secondary)',
-      accent: 'var(--color-accent)',
-      clear: 'var(--color-clear)'
+      primary: 'rgb(var(--color-primary) / <alpha-value>)',
+      secondary: 'rgb(var(--color-secondary) / <alpha-value>)',
+      accent: 'rgb(var(--color-accent) / <alpha-value>)',
+      clear: 'rgb(var(--color-clear) / <alpha-value>)'
     },
     extend: {},
   },

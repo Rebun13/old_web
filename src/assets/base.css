@@ -4,10 +4,10 @@
 
 @layer base {
   :root {
-    --color-primary: rgb(180 239 0); /* #B4E600 */
-    --color-secondary: rgb(64 64 64); /* #404040 */
-    --color-accent: rgb(0 230 168); /* #00E6A8 */
-    --color-clear: rgb(242 242 242); /* #F2F2F2 */
+    --color-primary: 180 239 0; /* #B4E600 */
+    --color-secondary: 64 64 64; /* #404040 */
+    --color-accent: 0 230 168; /* #00E6A8 */
+    --color-clear: 242 242 242; /* #F2F2F2 */
   }
   body {
     @apply bg-secondary bg-fixed

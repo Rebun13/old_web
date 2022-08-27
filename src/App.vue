@@ -15,13 +15,13 @@ import Projects from './components/Projects.vue';
           </a>
         </li>
         <li class="nav-item p-4">
-          <a class="nav-link text-black font-bold align-bottom" href="">{{ $t('headerStudies') }}</a>
+          <a class="nav-link text-black font-bold align-bottom" href="#studies">{{ $t('headerStudies') }}</a>
         </li>
         <li class="nav-item p-4">
-          <a class="nav-link text-black font-bold" href="">{{ $t('headerWork') }}</a>
+          <a class="nav-link text-black font-bold" href="#work-experience">{{ $t('headerWork') }}</a>
         </li>
         <li class="nav-item p-4">
-          <a class="nav-link text-black font-bold" href="">{{ $t('headerProjects') }}</a>
+          <a class="nav-link text-black font-bold" href="#projects">{{ $t('headerProjects') }}</a>
         </li>
       </ul>
     </div>

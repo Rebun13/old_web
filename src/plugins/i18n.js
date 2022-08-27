@@ -11,7 +11,14 @@ const messages = {
         headerProjects: 'Projects',
         headerStudies: 'Studies',
         language: 'Language',
-        studiesIntro: 'I have studied many things along my career.'
+        studiesIntro: 'I have studied many things along my career.',
+        secondarySchool: 'Secondary school',
+        mechanicalEngineering: 'Mechanical Engineering',
+        telecomEngineering: 'Telecom Engineering',
+        softwareEngineering: 'Software Engineering',
+        cloudDeveloper: "Cloud developer",
+        workIntro: 'I have worked as Cloud Developer for the last year.',
+        projectsIntro: 'To see my projects, click the following links.'
     },
     'es': {
         myName: 'Rubén',
@@ -23,7 +30,14 @@ const messages = {
         headerProjects: 'Proyectos',
         headerStudies: 'Estudios',
         language: 'Idioma',
-        studiesIntro: 'He estudiado muchas cosas a lo largo de mi carrera.'
+        studiesIntro: 'He estudiado muchas cosas a lo largo de mi carrera.',
+        secondarySchool: 'Educación Secundaria',
+        mechanicalEngineering: 'Ingeniería Mecánica',
+        telecomEngineering: 'Ingeniería de Telecomunicaciones',
+        softwareEngineering: 'Ingeniería Informática',
+        cloudDeveloper: "Desarrollador Cloud",
+        workIntro: 'He trabajado como desarrollador cloud durante el último año.',
+        projectsIntro: 'Para ver mis proyectos, selecciona uno de los siguientes enlaces.'
     }
 }
 

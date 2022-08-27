@@ -2,10 +2,10 @@
 
 </script>
 <template>
-  <div class="ml-24 mr-24 w-full">
-    <div id="studies-header" class="w-full mb-4">
-      <h1 class="text-clear">{{ $t("headerStudies") }}</h1>
-      <hr class="my-0 h-px w-1/4 bg-clear border-0">
+  <div class="ml-24 mr-24 mb-12 flex flex-wrap">
+    <div id="studies-header" class="mb-4 w-full">
+      <h1 id="studies" class="text-clear text-3xl font-bold w-full">{{ $t("headerStudies") }}</h1>
+      <hr class="my-0 h-px w-full bg-clear border-0">
     </div>
     <div id="studies-content" class="w-full">
       <div id="studies-text" class="flex">
@@ -32,136 +32,138 @@
           <tbody>
             <tr scope="col" class="text-sm font-medium border-clear px-6 py-4 text-left">
               <td class="p-2 border-r text-clear">
-                <span class="text-primary hover:text-accent">Secondary school</span>
+                <span class="text-clear hover:text-accent">{{ $t("secondarySchool") }}</span>
               </td>
-              <td class="bg-gradient-to-l from-accent"></td>
-              <td class="bg-accent"></td>
-              <td class="bg-accent"></td>
+              <td class="bg-gradient-to-l from-grad1"></td>
+              <td class="bg-grad1"></td>
+              <td class="bg-grad1"></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
             </tr>
             <tr scope="col" class="text-sm font-medium text-primary hover:text-accent px-6 py-4 text-left">
               <td class="p-2 border-r text-clear">
-                <span class="text-primary hover:text-accent">Mechanical Engineering</span>
+                <span class="text-clear hover:text-accent">{{ $t("mechanicalEngineering") }}</span>
               </td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="bg-grad2"></td>
+              <td class="bg-grad2"></td>
+              <td class="bg-grad2"></td>
+              <td class="bg-grad2"></td>
+              <td class="bg-grad2"></td>
+              <td class="bg-gradient-to-r from-grad2"></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
-              <td class="bg-accent"></td>
-              <td class="bg-accent"></td>
-              <td class="bg-accent"></td>
-              <td class="bg-accent"></td>
-              <td class="bg-accent"></td>
-              <td class="bg-gradient-to-r from-accent"></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
             </tr>
             <tr scope="col" class="text-sm font-medium text-primary hover:text-accent px-6 py-4 text-left">
               <td class="p-2 border-r text-clear">
-                <span class="text-primary hover:text-accent">Telecom Engineering</span>
+                <span class="text-clear hover:text-accent">{{ $t("telecomEngineering")}}</span>
               </td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="bg-grad3"></td>
+              <td class="bg-gradient-to-r from-grad3"></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
-              <td></td>
-              <td class="bg-accent"></td>
-              <td class="bg-gradient-to-r from-accent"></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
             </tr>
             <tr scope="col" class="text-sm font-medium text-primary hover:text-accent px-6 py-4 text-left">
               <td class="p-2 border-r text-clear">
-                <span class="text-primary hover:text-accent">Software Engineering</span>
+                <span class="text-clear hover:text-accent">{{ $t("softwareEngineering")}}</span>
               </td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td class="bg-accent"></td>
-              <td class="bg-accent"></td>
-              <td class="bg-accent"></td>
-              <td class="bg-accent"></td>
-              <td class="bg-accent"></td>
-              <td class="bg-accent"></td>
-              <td class="bg-accent"></td>
-              <td class="bg-accent"></td>
-              <td></td>
+              <td class="bg-grad4"></td>
+              <td class="bg-grad4"></td>
+              <td class="bg-grad4"></td>
+              <td class="bg-grad4"></td>
+              <td class="bg-grad4"></td>
+              <td class="bg-grad4"></td>
+              <td class="bg-grad4"></td>
+              <td class="bg-grad4"></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
             </tr>
-            <tr scope="col" class="text-sm font-medium text-primary hover:text-accent px-6 py-4 text-left">
+            <tr scope="col" class="text-sm font-medium hover:text-accent px-6 py-4 text-left">
               <td class="p-2 border-r text-clear">
-                <span class="text-primary hover:text-accent">Cloud developer</span>
+                <span class="text-clear hover:text-accent">{{ $t("cloudDeveloper")}}</span>
               </td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
+              <td class="border-dotted border-clear/50 border-r-2"></td>
               <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td class="bg-accent"></td>
-              <td class="bg-accent"></td>
-              <td class="bg-gradient-to-r from-accent"></td>
+              <td class="bg-grad5"></td>
+              <td class="bg-grad5"></td>
+              <td class="bg-gradient-to-r from-grad5"></td>
             </tr>
           </tbody>
         </table>

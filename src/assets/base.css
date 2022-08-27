@@ -8,6 +8,11 @@
     --color-secondary: 64 64 64; /* #404040 */
     --color-accent: 0 230 168; /* #00E6A8 */
     --color-clear: 242 242 242; /* #F2F2F2 */
+    --color-grad1: 180 230 0; /* #B4E600 */
+    --color-grad2: 82 230 0; /* #52E600 */
+    --color-grad3: 0 230 8; /* #00E608 */
+    --color-grad4: 0 230 88; /* #00E658 */
+    --color-grad5: 0 230 168; /* #00E6A8 */
   }
   body {
     @apply bg-secondary bg-fixed

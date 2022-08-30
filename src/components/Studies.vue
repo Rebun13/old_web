@@ -130,7 +130,9 @@
               <td></td>
               <td class="bg-grad4"></td>
               <td class="bg-grad4"></td>
-              <td class="bg-grad4"></td>
+              <td class="bg-grad4">
+                
+              </td>
               <td class="bg-grad4"></td>
               <td class="bg-grad4"></td>
               <td class="bg-grad4"></td>

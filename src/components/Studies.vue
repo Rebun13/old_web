@@ -11,164 +11,77 @@
       <div id="studies-text" class="flex">
         <p id="studies-intro" class="text-clear" v-html="$t('studiesIntro')"></p>
       </div>
-      <div id="studies-table-container flex">
-        <table class="table-auto my-4 border-clear">
-          <thead  scope="col" class="border-b text-sm font-medium text-clear text-center">
-            <tr>
-              <th class="px-6 py-1 border-r"></th>
-              <th class="px-6 py-1 border-r" colspan="2">2012</th>
-              <th class="px-6 py-2 border-r" colspan="2">2013</th>
-              <th class="px-6 py-1 border-r" colspan="2">2014</th>
-              <th class="px-6 py-1 border-r" colspan="2">2015</th>
-              <th class="px-6 py-1 border-r" colspan="2">2016</th>
-              <th class="px-6 py-1 border-r" colspan="2">2017</th>
-              <th class="px-6 py-1 border-r" colspan="2">2018</th>
-              <th class="px-6 py-1 border-r" colspan="2">2019</th>
-              <th class="px-6 py-1 border-r" colspan="2">2020</th>
-              <th class="px-6 py-1 border-r" colspan="2">2021</th>
-              <th class="px-6 py-1 border-r" colspan="2">2022</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr scope="col" class="text-sm font-medium border-clear px-6 py-4 text-left">
-              <td class="p-2 border-r text-clear">
-                <span class="text-clear hover:text-accent">{{ $t("secondarySchool") }}</span>
-              </td>
-              <td class="bg-gradient-to-l from-grad1"></td>
-              <td class="bg-grad1"></td>
-              <td class="bg-grad1"></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-            </tr>
-            <tr scope="col" class="text-sm font-medium text-primary hover:text-accent px-6 py-4 text-left">
-              <td class="p-2 border-r text-clear">
-                <span class="text-clear hover:text-accent">{{ $t("mechanicalEngineering") }}</span>
-              </td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="bg-grad2"></td>
-              <td class="bg-grad2"></td>
-              <td class="bg-grad2"></td>
-              <td class="bg-grad2"></td>
-              <td class="bg-grad2"></td>
-              <td class="bg-gradient-to-r from-grad2"></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-            </tr>
-            <tr scope="col" class="text-sm font-medium text-primary hover:text-accent px-6 py-4 text-left">
-              <td class="p-2 border-r text-clear">
-                <span class="text-clear hover:text-accent">{{ $t("telecomEngineering")}}</span>
-              </td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="bg-grad3"></td>
-              <td class="bg-gradient-to-r from-grad3"></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-            </tr>
-            <tr scope="col" class="text-sm font-medium text-primary hover:text-accent px-6 py-4 text-left">
-              <td class="p-2 border-r text-clear">
-                <span class="text-clear hover:text-accent">{{ $t("softwareEngineering")}}</span>
-              </td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="bg-grad4"></td>
-              <td class="bg-grad4"></td>
-              <td class="bg-grad4">
-                
-              </td>
-              <td class="bg-grad4"></td>
-              <td class="bg-grad4"></td>
-              <td class="bg-grad4"></td>
-              <td class="bg-grad4"></td>
-              <td class="bg-grad4"></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-            </tr>
-            <tr scope="col" class="text-sm font-medium hover:text-accent px-6 py-4 text-left">
-              <td class="p-2 border-r text-clear">
-                <span class="text-clear hover:text-accent">{{ $t("cloudDeveloper")}}</span>
-              </td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="border-dotted border-clear/50 border-r-2"></td>
-              <td></td>
-              <td class="bg-grad5"></td>
-              <td class="bg-grad5"></td>
-              <td class="bg-gradient-to-r from-grad5"></td>
-            </tr>
-          </tbody>
-        </table>
+      <div id="studies-table-container" class="flex my-4">
+        <!-- First column -->
+        <div id="first-column" class="w-1/6 text-sm text-right">
+          <div id="empty-cell" class="w-full p-2 text-clear"></div>
+          <div class="w-full p-2 border-r-2 text-clear">
+            <span class="text-clear hover:text-accent">{{ $t("secondarySchool") }}</span>
+          </div>
+          <div class="w-full p-2 border-r-2 text-clear">
+            <span class="text-clear hover:text-accent">{{ $t("mechanicalEngineering") }}</span>
+          </div>
+          <div class="w-full p-2 border-r-2 text-clear">
+            <span class="text-clear hover:text-accent">{{ $t("telecomEngineering") }}</span>
+          </div>
+          <div class="w-full p-2 border-r-2 text-clear">
+            <span class="text-clear hover:text-accent">{{ $t("softwareEngineering") }}</span>
+          </div>
+          <div class="w-full p-2 border-r-2 text-clear">
+            <span class="text-clear hover:text-accent">{{ $t("cloudDeveloper") }}</span>
+          </div>
+        </div>
+        <!-- Table body -->
+        <div id="table-body" class="w-auto flex flex-col">
+          <!-- row header -->
+          <div id="table-header" scope="col" class="text-sm font-medium text-clear text-center">
+            <span class="px-6 py-1 border-secondary border-2 bg-primary text-secondary font-bold rounded-sm"
+              colspan="2">2012</span>
+            <span class="px-6 py-1 border-secondary border-2 bg-primary text-secondary font-bold rounded-sm"
+              colspan="2">2013</span>
+            <span class="px-6 py-1 border-secondary border-2 bg-primary text-secondary font-bold rounded-sm"
+              colspan="2">2014</span>
+            <span class="px-6 py-1 border-secondary border-2 bg-primary text-secondary font-bold rounded-sm"
+              colspan="2">2015</span>
+            <span class="px-6 py-1 border-secondary border-2 bg-primary text-secondary font-bold rounded-sm"
+              colspan="2">2016</span>
+            <span class="px-6 py-1 border-secondary border-2 bg-primary text-secondary font-bold rounded-sm"
+              colspan="2">2017</span>
+            <span class="px-6 py-1 border-secondary border-2 bg-primary text-secondary font-bold rounded-sm"
+              colspan="2">2018</span>
+            <span class="px-6 py-1 border-secondary border-2 bg-primary text-secondary font-bold rounded-sm"
+              colspan="2">2019</span>
+            <span class="px-6 py-1 border-secondary border-2 bg-primary text-secondary font-bold rounded-sm"
+              colspan="2">2020</span>
+            <span class="px-6 py-1 border-secondary border-2 bg-primary text-secondary font-bold rounded-sm"
+              colspan="2">2021</span>
+            <span class="px-6 py-1 border-secondary border-2 bg-primary text-secondary font-bold rounded-sm"
+              colspan="2">2022</span>
+              <span class="px-6 py-1 border-secondary border-2 bg-primary text-secondary font-bold rounded-sm"
+              colspan="2">2023</span>
+          </div>
+          <!-- row secondary school -->
+          <div scope="col" class="text-sm font-medium border-clear py-4 text-left flex flex-row">
+            <div class="grid grid-cols-12 divide-x bg-grad1 rounded-r-3xl h-5"><span class="text-clear"></span></div>
+            <div class="w-21/24"></div>
+          </div>
+          <!-- row mechanical engineering -->
+          <div scope="col" class="text-sm font-medium text-primary hover:text-accent px-6 py-4 text-left">
+
+          </div>
+          <!-- row telecom engineering -->
+          <div scope="col" class="text-sm font-medium text-primary hover:text-accent px-6 py-4 text-left">
+
+          </div>
+          <!-- row software engineering -->
+          <div scope="col" class="text-sm font-medium text-primary hover:text-accent px-6 py-4 text-left">
+
+          </div>
+          <!-- cloud developer -->
+          <div scope="col" class="text-sm font-medium hover:text-accent px-6 py-4 text-left">
+
+          </div>
+        </div>
       </div>
     </div>
   </div>
